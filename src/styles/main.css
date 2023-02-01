@@ -1,0 +1,35 @@
+.bodyHeading {
+  padding: 0.5rem 0;
+}
+
+hr {
+  border: 1px solid #e0e0e0;
+}
+
+.body-subheading {
+  padding: 1rem 0;
+  color: #6e747f;
+  line-height: 1.5;
+}
+
+.input {
+  width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 0;
+  word-break: break-word;
+  color: #222;
+  cursor: text;
+  position: relative;
+  white-space: pre-wrap;
+  caret-color: #37352f;
+}
+
+.input:focus {
+  outline: none;
+  animation: fadeIn 3s;
+}
+
+[contenteditable]:empty::before {
+  content: attr(placeholder);
+  color: #37352f80;
+}
