@@ -5,7 +5,7 @@ const createTag = (input, tag) => {
   input.classList.add(tag);
   input.textContent = input.textContent.slice(2).trim();
 
-  if (tag === 'p') input.setAttribute('placeholder', 'Paragraph')
+  if (tag === 'p') input.setAttribute('placeholder', 'Paragraph');
   else input.setAttribute('placeholder', `Heading ${tag}`);
 
   input.focus();
