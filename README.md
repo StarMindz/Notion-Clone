@@ -74,6 +74,7 @@
 
 
 - [Live Demo Link](https://notion-clone2.netlify.app/)
+- [Video Demo Link](https://www.loom.com/share/c1a4b40253804c898b18ebbfab1319da)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

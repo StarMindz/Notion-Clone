@@ -16,7 +16,7 @@ const blockOptions = [
 
 // Generate HTML for each block option
 const createOption = ({ title, description, type }) => {
-  return `
+  const optionHtml = `
     <button class="tag-item" data-type="${type}">
       <img src="${Icon}" alt="big Tee" width="29">
       <div>
@@ -25,6 +25,7 @@ const createOption = ({ title, description, type }) => {
       </div>
     </button>
   `;
+  return optionHtml;
 };
 
 // Create popup

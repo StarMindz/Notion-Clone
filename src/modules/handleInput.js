@@ -23,7 +23,7 @@ const handleInput = (input = document.getElementById('1')) => {
     if (event.key === 'Enter') {
       event.preventDefault();
       const inputText = input.textContent;
-      
+
       if (inputText[0] === '/' && inputText[1] === '1') {
         createTag(input, 'h1');
       }

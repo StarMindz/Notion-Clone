@@ -9,7 +9,7 @@ const createNewInput = (currentInputElement, currentId) => {
   // Set attributes for the new element
   newInputElement.setAttribute('contenteditable', true);
   newInputElement.setAttribute('spellcheck', true);
-  newInputElement.setAttribute('placeholder', "Type / for blocks, @ to link docs or people");
+  newInputElement.setAttribute('placeholder', 'Type / for blocks, @ to link docs or people');
   newInputElement.setAttribute('id', `${Number(currentId) + 1}`);
 
   // Insert the new element after the current input
