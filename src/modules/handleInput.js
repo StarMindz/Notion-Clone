@@ -52,9 +52,6 @@ const handleInput = (input = document.getElementById('1')) => {
         input.removeAttribute('placeholder');
       }
 
-      // if the user refuses to put in any text he is not allowed to save it
-      if (inputText === '') return;
-
       const nextInput = createNewInput(input, input.id);
       handleInput(nextInput);
     }
